@@ -57,27 +57,6 @@ export default function Conclusion() {
         </ul>
       </section>
 
-      {/* Future work */}
-      <section className="space-y-4">
-        <h2 className="text-xl font-semibold text-foreground">Future Directions</h2>
-        <div className="space-y-3">
-          {futureWork.map((fw, i) => (
-            <motion.div
-              key={fw.title}
-              initial={{ opacity: 0, x: -10 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: i * 0.1 }}
-              className="flex items-start gap-3 rounded-lg border border-border p-4"
-            >
-              <ArrowRight className="h-4 w-4 text-[hsl(var(--doc-blue))] shrink-0 mt-0.5" />
-              <div>
-                <h3 className="text-sm font-semibold text-foreground">{fw.title}</h3>
-                <p className="text-xs text-muted-foreground mt-1 leading-relaxed">{fw.desc}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
     </motion.div>
   );
 }

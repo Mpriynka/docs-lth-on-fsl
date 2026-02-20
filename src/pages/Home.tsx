@@ -43,7 +43,6 @@ export default function Home() {
     <div className="space-y-12">
       {/* Hero */}
       <motion.section initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-        <p className="text-sm font-semibold text-[hsl(var(--doc-blue))] mb-2">B.Tech Research Project</p>
         <h1 className="text-3xl sm:text-4xl font-bold text-foreground leading-tight">
           Lottery Ticket Hypothesis for
           <br />
@@ -53,7 +52,7 @@ export default function Home() {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-xl leading-relaxed">
           What if you could remove half a neural network and make it <em>better</em> at learning from just a handful of examples?
-          This research explores exactly that.
+          This Project explores exactly that.
         </p>
         <div className="mt-6 flex gap-3">
           <Link
@@ -93,11 +92,11 @@ export default function Home() {
 
       {/* Team */}
       <section className="rounded-xl border border-border p-6 bg-muted/30">
-        <h2 className="text-base font-semibold text-foreground mb-3">Team & Institution</h2>
+        <h2 className="text-base font-semibold text-foreground mb-3">Team</h2>
         <div className="grid gap-2 text-sm text-muted-foreground">
-          <p><span className="font-medium text-foreground">Authors:</span> Ankit Kumar Yadav, Aman Clement Xess</p>
-          <p><span className="font-medium text-foreground">Supervisor:</span> Dr. Deepak Mishra</p>
-          <p><span className="font-medium text-foreground">Institution:</span> Indian Institute of Technology Jodhpur</p>
+          <p><span className="font-medium text-foreground">Authors:</span> Priyanka More, Richa Thakwani, Deepanshu Choudhary, Priya Jain</p>
+          <p><span className="font-medium text-foreground">Supervisor:</span> Dr. Sanjeev Sharma</p>
+          <p><span className="font-medium text-foreground">Institution:</span> Indian Institute of Information Technology Pune</p>
           <p><span className="font-medium text-foreground">Department:</span> Computer Science & Engineering</p>
         </div>
       </section>

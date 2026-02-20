@@ -76,7 +76,7 @@ export default function Methodology() {
             </p>
           </div>
           <div className="rounded-lg border border-border p-5">
-            <h3 className="text-sm font-semibold text-foreground">Pretrain + Finetune</h3>
+            <h3 className="text-sm font-semibold text-foreground">Pretrain</h3>
             <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
               Pre-trains a feature extractor on base classes, then fine-tunes a linear classifier on the
               support set of novel classes. Leverages transfer learning for strong performance.

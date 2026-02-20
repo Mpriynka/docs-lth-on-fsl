@@ -53,10 +53,7 @@ export function DocSidebar({ open, onClose }: { open: boolean; onClose: () => vo
           })}
         </nav>
 
-        <div className="p-4 mt-4 mx-4 rounded-lg bg-accent/50 border border-border">
-          <p className="text-xs font-medium text-accent-foreground">B.Tech Project</p>
-          <p className="text-xs text-muted-foreground mt-1">IIT Jodhpur · 2023-24</p>
-        </div>
+
       </aside>
     </>
   );

@@ -31,7 +31,6 @@ export function DocLayout() {
           <div className="flex-1" />
 
           <span className="hidden sm:inline text-xs px-2.5 py-1 rounded-full bg-accent text-accent-foreground font-medium">
-            Research Docs
           </span>
         </div>
       </header>
